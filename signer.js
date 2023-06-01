@@ -3,7 +3,7 @@ var fs = require('fs');
 var csv = require('csv-parser');
 
 async function main() {
-    const walletEther = new ethers.Wallet("e4b74ff7105874f2a218b07f9326c7bcecc6c5f3d5e1185f42860974f7cd5fa3");
+    const walletEther = new ethers.Wallet("passar sua private key aqui");
 
     const results = [];
     fs.createReadStream('addressesSign.csv')
